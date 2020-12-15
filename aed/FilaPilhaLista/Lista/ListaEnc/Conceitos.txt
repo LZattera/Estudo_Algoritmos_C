@@ -1,0 +1,18 @@
+Lista Dinâmica encadeada
+Vantagens
+	Melhor utilização dos recursos de memoria
+	Não precisa movimentar os elementos nas operações de INSERÇÃO E REMOÇÃO
+Desvantagens
+	Acesso indireto aos elementos
+	Necessidade de percorrer a lista para acessar o elemento
+Quando usar
+	Não há necessidade de garantir um espaço MINIMO	para execução
+	Inserão/Remoção em lista ordenada são as operações mais frequentes (por serem mais facéis de
+		maniular os outros elementos, semprecisar movimentar todos os outros elemntos como na lista estática)
+
+ REMOÇÃO DE UM ELEMNTO
+	Sempre remove um item específico da lista q pode estar n inicio,meio ou fim
+	CUIDADO:
+		NÃO se pode remover de uma lista vazia
+		Removendo o último nó, a lista fica vazia
+		Se remover o inicio (quando a lista tem mais de um elem) se perde a 'cabeça/inicio' da lista e não se acha os elemntos que o inicio apontava
